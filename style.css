@@ -1,0 +1,320 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+body{
+    overflow-x:hidden;
+}
+header{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* .nav-link{
+  color: white;
+} */
+
+/* hero code */
+.hero-image {
+  background-image: url("imageedit_1_3744868719.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.hero-text{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.hero-text h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.hero-text p{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  font-weight: 20px; 
+}
+
+.gero-image {
+  background-image: url("deez.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.gero-text{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.gero-text h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.bero-image {
+  background-image: url("muah.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.bero-text{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bero-text h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+/* hero code End */
+
+/* Nav Code */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #be6400;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #be6400;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+/* nav ul li{
+  padding: 7px;
+}
+
+nav{
+  style="background-color: transparent"
+}
+
+.navbar {
+  color: white;
+} */
+
+navbar{
+  color:black;
+  position:fixed;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
+
+navbar ul{
+  list-style-type: none;
+}
+navbar li{
+  display: inline;
+  padding: 0px 12%;
+}
+
+.wow {
+  padding-top: 20px;
+}
+
+.lol{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+  color:white;
+
+}
+  
+
+
+/*Footer Code*/
+footer{
+    background-color: #8d6130;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align:center;
+    font-family: anton;
+}
+
+footer h3{
+  color: white;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+footer h2{
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+footer a{
+  color: white;
+  font-size: 30px;
+}
+
+/*fixed image code*/ 
+
+.pop{
+min-height: 450px;
+position: relative;
+background-image: url('jenna.jpeg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.passion{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.fruit{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.exploretitle{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+section{
+  text-align: center;
+}
+
+section img {
+  max-width: 70%;
+  border-radius: 50%;
+}
+
+.recipebox {
+  font-family: 'Libre Baskerville', serif;
+}
+
+navbar a:hover{
+  color:beige; 
+  text-decoration: none;
+}
+
+redirect a:hover{
+  color:#8d6130 !important;
+  text-decoration: none;
+}
+
+redirect a:active{
+  color:#000000 !important;
+  text-decoration: none;
+}
+
+.team{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.ingredientSearch{
+  font-family: 'Libre Baskerville', serif;
+}
+
+::selection {
+  background: #704f29;
+  color: white;
+
+}
+
+.video{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.home{
+  text-decoration: none; 
+  background-color: beige; 
+  width: 100%;
+
+}
+
+.zone{
+  margin:200px auto;
+  width:70%; 
+  padding-bottom: 10px;
+}
+
+.grown{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  float: left;
+  padding-right: 100px;
+  
+}
+
+.frown h1{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color:black;
+  padding-top: 70px;
+  
+}
+
+.frown p{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
